@@ -1,0 +1,45 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+th {
+  text-align: left;
+}
+
+.submit_button {
+  margin: 20px 200px;
+  padding: 20px;
+  width: 200px;
+  background-color: teal ;
+}
+
+.submit_button:hover {
+  color: #EEE;
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+a:hover {
+  color: navy;
+}
+
+.tagcloud {
+  display: inline-block;
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: right;
+  padding-right: 30px;
+}

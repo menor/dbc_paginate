@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Posts tagged #<%= @tag.name %></h1>
+  <ul>
+    <% @posts.each do |post|%>
+    <li>
+      <h2><%= post.title %></h2>
+      <p><%= post.content %></p>
+      <hr/>
+    </li>
+    <% end %>
+  </ul>
+</div>
